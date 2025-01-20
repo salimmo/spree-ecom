@@ -88,7 +88,7 @@ Rails.application.configure do
   config.active_record.dump_schema_after_migration = false
 
   # Enable DNS rebinding protection and other `Host` header attacks.
-   config.hosts << ENV['RAILS_HOSTS'] # Add this line to allow the host from the environment variable
+   config.hosts << "spree.salimdev.de" # Add this line to allow the host from the environment variable
   #   "example.com",     # Allow requests from example.com
   #   /.*\.example\.com/ # Allow requests from subdomains like `www.example.com`
   # ]
